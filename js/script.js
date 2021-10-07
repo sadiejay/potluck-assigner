@@ -66,7 +66,7 @@ const updateGuestCount = function () {
 };
 
 const assignItems = function () {
-  const potluckItems =["potato salad", "tofuna sandwich", "tofu egg salad", "baked beans", "maccorroni salad", "chic'n", "bean dip", "green bean casserole", "beef seitan jerky", "mac and cheese", "mashed potatoes", "cornbread", "hummus", "cookies", "fruit", "soda", "lemonade", "water",]
+  const potluckItems =["potato salad", "tofuna sandwich", "tofu egg salad", "baked beans", "maccheroni salad", "chic'n", "bean dip", "green bean casserole", "beef seitan jerky", "mac and cheese", "mashed potatoes", "cornbread", "hummus", "cookies", "fruit", "soda", "lemonade", "water",]
   const allGuests = document.querySelectorAll(".guest-list li");
 
   for (let guest of allGuests) {
